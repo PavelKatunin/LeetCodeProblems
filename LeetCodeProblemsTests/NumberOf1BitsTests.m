@@ -30,6 +30,13 @@
     XCTAssertEqual([[[NumberOf1Bits alloc] init] numberOfOneBits:input], expected);
 }
 
+- (void)testPositiveWithGaps {
+    int64_t input = 14;
+    NSUInteger expected = 3;
+    
+    XCTAssertEqual([[[NumberOf1Bits alloc] init] numberOfOneBits:input], expected);
+}
+
 - (void)testMaxValue {
     int64_t input = INT64_MAX;
     NSUInteger expected = 63;

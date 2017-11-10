@@ -1,11 +1,3 @@
-//
-//  NumberOf1Bits.m
-//  LeetCodeProblems
-//
-//  Created by Pavel Katunin on 11/9/17.
-//  Copyright © 2017 Pavel Katunin. All rights reserved.
-//
-
 #import "NumberOf1Bits.h"
 
 @implementation NumberOf1Bits
