@@ -19,6 +19,8 @@
 		152705561FB47A400026E14D /* NumberOf1BitsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 152705551FB47A400026E14D /* NumberOf1BitsTests.m */; };
 		152705591FB480A10026E14D /* SumOfTwoIntegers.m in Sources */ = {isa = PBXBuildFile; fileRef = 152705581FB480A10026E14D /* SumOfTwoIntegers.m */; };
 		1527055B1FB4811E0026E14D /* SumOfTwoIntegersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1527055A1FB4811E0026E14D /* SumOfTwoIntegersTests.m */; };
+		76FEE19F1FBEDA02009CE4BF /* TraidingStocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE19E1FBEDA02009CE4BF /* TraidingStocks.m */; };
+		76FEE1A11FBEDA2B009CE4BF /* TraidingStocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE1A01FBEDA2B009CE4BF /* TraidingStocksTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,9 @@
 		152705571FB480A10026E14D /* SumOfTwoIntegers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumOfTwoIntegers.h; sourceTree = "<group>"; };
 		152705581FB480A10026E14D /* SumOfTwoIntegers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumOfTwoIntegers.m; sourceTree = "<group>"; };
 		1527055A1FB4811E0026E14D /* SumOfTwoIntegersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumOfTwoIntegersTests.m; sourceTree = "<group>"; };
+		76FEE19D1FBEDA02009CE4BF /* TraidingStocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TraidingStocks.h; sourceTree = "<group>"; };
+		76FEE19E1FBEDA02009CE4BF /* TraidingStocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraidingStocks.m; sourceTree = "<group>"; };
+		76FEE1A01FBEDA2B009CE4BF /* TraidingStocksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraidingStocksTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +129,8 @@
 				152705531FB478180026E14D /* NumberOf1Bits.m */,
 				152705571FB480A10026E14D /* SumOfTwoIntegers.h */,
 				152705581FB480A10026E14D /* SumOfTwoIntegers.m */,
+				76FEE19D1FBEDA02009CE4BF /* TraidingStocks.h */,
+				76FEE19E1FBEDA02009CE4BF /* TraidingStocks.m */,
 			);
 			path = LeetCodeProblems;
 			sourceTree = "<group>";
@@ -135,6 +142,7 @@
 				1527053B1FB477ED0026E14D /* Info.plist */,
 				152705551FB47A400026E14D /* NumberOf1BitsTests.m */,
 				1527055A1FB4811E0026E14D /* SumOfTwoIntegersTests.m */,
+				76FEE1A01FBEDA2B009CE4BF /* TraidingStocksTests.m */,
 			);
 			path = LeetCodeProblemsTests;
 			sourceTree = "<group>";
@@ -285,6 +293,7 @@
 				152705591FB480A10026E14D /* SumOfTwoIntegers.m in Sources */,
 				152705301FB477ED0026E14D /* main.m in Sources */,
 				152705221FB477ED0026E14D /* AppDelegate.m in Sources */,
+				76FEE19F1FBEDA02009CE4BF /* TraidingStocks.m in Sources */,
 				152705541FB478180026E14D /* NumberOf1Bits.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76FEE1A11FBEDA2B009CE4BF /* TraidingStocksTests.m in Sources */,
 				1527053A1FB477ED0026E14D /* LeetCodeProblemsTests.m in Sources */,
 				152705561FB47A400026E14D /* NumberOf1BitsTests.m in Sources */,
 				1527055B1FB4811E0026E14D /* SumOfTwoIntegersTests.m in Sources */,
