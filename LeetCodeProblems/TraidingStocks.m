@@ -2,6 +2,8 @@
 
 @implementation TraidingStocks
 
+// O(n)
+
 - (double)maxProfitFromStocks:(NSArray<NSNumber *> *)stocks {
     NSAssert(stocks.count > 1, @"Cannot calculate profit from 1 stock price");
     

@@ -13,7 +13,6 @@
 		1527052A1FB477ED0026E14D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152705291FB477ED0026E14D /* Assets.xcassets */; };
 		1527052D1FB477ED0026E14D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1527052B1FB477ED0026E14D /* LaunchScreen.storyboard */; };
 		152705301FB477ED0026E14D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1527052F1FB477ED0026E14D /* main.m */; };
-		1527053A1FB477ED0026E14D /* LeetCodeProblemsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 152705391FB477ED0026E14D /* LeetCodeProblemsTests.m */; };
 		152705451FB477ED0026E14D /* LeetCodeProblemsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 152705441FB477ED0026E14D /* LeetCodeProblemsUITests.m */; };
 		152705541FB478180026E14D /* NumberOf1Bits.m in Sources */ = {isa = PBXBuildFile; fileRef = 152705531FB478180026E14D /* NumberOf1Bits.m */; };
 		152705561FB47A400026E14D /* NumberOf1BitsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 152705551FB47A400026E14D /* NumberOf1BitsTests.m */; };
@@ -23,6 +22,14 @@
 		76FEE1A11FBEDA2B009CE4BF /* TraidingStocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE1A01FBEDA2B009CE4BF /* TraidingStocksTests.m */; };
 		76FEE1A41FBEE468009CE4BF /* ProductOfOtherNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE1A31FBEE468009CE4BF /* ProductOfOtherNumbers.m */; };
 		76FEE1A61FBEE4E1009CE4BF /* ProductOfOtherNumbersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE1A51FBEE4E1009CE4BF /* ProductOfOtherNumbersTests.m */; };
+		76FEE1A91FC1788D009CE4BF /* BreadthFirstSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE1A81FC1788D009CE4BF /* BreadthFirstSearch.m */; };
+		76FEE1AB1FC178B9009CE4BF /* BreadthFirstSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE1AA1FC178B9009CE4BF /* BreadthFirstSearchTests.m */; };
+		76FEE1AE1FC17D7D009CE4BF /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE1AD1FC17D7D009CE4BF /* Queue.m */; };
+		76FEE1B01FC17DFE009CE4BF /* QueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE1AF1FC17DFE009CE4BF /* QueueTests.m */; };
+		76FEE1B31FC198CD009CE4BF /* HighestProductOf3Integers.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE1B21FC198CD009CE4BF /* HighestProductOf3Integers.m */; };
+		76FEE1B51FC1993E009CE4BF /* HighestProductOf3IntegersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE1B41FC1993E009CE4BF /* HighestProductOf3IntegersTests.m */; };
+		76FEE1B81FC1CAB2009CE4BF /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE1B71FC1CAB2009CE4BF /* QuickSort.m */; };
+		76FEE1BA1FC1CF7D009CE4BF /* QuickSortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE1B91FC1CF7D009CE4BF /* QuickSortTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +61,6 @@
 		1527052E1FB477ED0026E14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1527052F1FB477ED0026E14D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		152705351FB477ED0026E14D /* LeetCodeProblemsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeProblemsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		152705391FB477ED0026E14D /* LeetCodeProblemsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetCodeProblemsTests.m; sourceTree = "<group>"; };
 		1527053B1FB477ED0026E14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		152705401FB477ED0026E14D /* LeetCodeProblemsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeProblemsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		152705441FB477ED0026E14D /* LeetCodeProblemsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetCodeProblemsUITests.m; sourceTree = "<group>"; };
@@ -71,6 +77,18 @@
 		76FEE1A21FBEE468009CE4BF /* ProductOfOtherNumbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductOfOtherNumbers.h; sourceTree = "<group>"; };
 		76FEE1A31FBEE468009CE4BF /* ProductOfOtherNumbers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductOfOtherNumbers.m; sourceTree = "<group>"; };
 		76FEE1A51FBEE4E1009CE4BF /* ProductOfOtherNumbersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductOfOtherNumbersTests.m; sourceTree = "<group>"; };
+		76FEE1A71FC1788D009CE4BF /* BreadthFirstSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BreadthFirstSearch.h; sourceTree = "<group>"; };
+		76FEE1A81FC1788D009CE4BF /* BreadthFirstSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreadthFirstSearch.m; sourceTree = "<group>"; };
+		76FEE1AA1FC178B9009CE4BF /* BreadthFirstSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreadthFirstSearchTests.m; sourceTree = "<group>"; };
+		76FEE1AC1FC17D7D009CE4BF /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		76FEE1AD1FC17D7D009CE4BF /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		76FEE1AF1FC17DFE009CE4BF /* QueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueTests.m; sourceTree = "<group>"; };
+		76FEE1B11FC198CD009CE4BF /* HighestProductOf3Integers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HighestProductOf3Integers.h; sourceTree = "<group>"; };
+		76FEE1B21FC198CD009CE4BF /* HighestProductOf3Integers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HighestProductOf3Integers.m; sourceTree = "<group>"; };
+		76FEE1B41FC1993E009CE4BF /* HighestProductOf3IntegersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HighestProductOf3IntegersTests.m; sourceTree = "<group>"; };
+		76FEE1B61FC1CAB2009CE4BF /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		76FEE1B71FC1CAB2009CE4BF /* QuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
+		76FEE1B91FC1CF7D009CE4BF /* QuickSortTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSortTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +156,14 @@
 				76FEE19E1FBEDA02009CE4BF /* TraidingStocks.m */,
 				76FEE1A21FBEE468009CE4BF /* ProductOfOtherNumbers.h */,
 				76FEE1A31FBEE468009CE4BF /* ProductOfOtherNumbers.m */,
+				76FEE1A71FC1788D009CE4BF /* BreadthFirstSearch.h */,
+				76FEE1A81FC1788D009CE4BF /* BreadthFirstSearch.m */,
+				76FEE1AC1FC17D7D009CE4BF /* Queue.h */,
+				76FEE1AD1FC17D7D009CE4BF /* Queue.m */,
+				76FEE1B11FC198CD009CE4BF /* HighestProductOf3Integers.h */,
+				76FEE1B21FC198CD009CE4BF /* HighestProductOf3Integers.m */,
+				76FEE1B61FC1CAB2009CE4BF /* QuickSort.h */,
+				76FEE1B71FC1CAB2009CE4BF /* QuickSort.m */,
 			);
 			path = LeetCodeProblems;
 			sourceTree = "<group>";
@@ -145,12 +171,15 @@
 		152705381FB477ED0026E14D /* LeetCodeProblemsTests */ = {
 			isa = PBXGroup;
 			children = (
-				152705391FB477ED0026E14D /* LeetCodeProblemsTests.m */,
 				1527053B1FB477ED0026E14D /* Info.plist */,
 				152705551FB47A400026E14D /* NumberOf1BitsTests.m */,
 				1527055A1FB4811E0026E14D /* SumOfTwoIntegersTests.m */,
 				76FEE1A01FBEDA2B009CE4BF /* TraidingStocksTests.m */,
 				76FEE1A51FBEE4E1009CE4BF /* ProductOfOtherNumbersTests.m */,
+				76FEE1AA1FC178B9009CE4BF /* BreadthFirstSearchTests.m */,
+				76FEE1AF1FC17DFE009CE4BF /* QueueTests.m */,
+				76FEE1B41FC1993E009CE4BF /* HighestProductOf3IntegersTests.m */,
+				76FEE1B91FC1CF7D009CE4BF /* QuickSortTests.m */,
 			);
 			path = LeetCodeProblemsTests;
 			sourceTree = "<group>";
@@ -300,10 +329,14 @@
 				152705251FB477ED0026E14D /* ViewController.m in Sources */,
 				152705591FB480A10026E14D /* SumOfTwoIntegers.m in Sources */,
 				152705301FB477ED0026E14D /* main.m in Sources */,
+				76FEE1AE1FC17D7D009CE4BF /* Queue.m in Sources */,
 				76FEE1A41FBEE468009CE4BF /* ProductOfOtherNumbers.m in Sources */,
 				152705221FB477ED0026E14D /* AppDelegate.m in Sources */,
 				76FEE19F1FBEDA02009CE4BF /* TraidingStocks.m in Sources */,
+				76FEE1B81FC1CAB2009CE4BF /* QuickSort.m in Sources */,
 				152705541FB478180026E14D /* NumberOf1Bits.m in Sources */,
+				76FEE1B31FC198CD009CE4BF /* HighestProductOf3Integers.m in Sources */,
+				76FEE1A91FC1788D009CE4BF /* BreadthFirstSearch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,11 +344,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76FEE1B51FC1993E009CE4BF /* HighestProductOf3IntegersTests.m in Sources */,
 				76FEE1A61FBEE4E1009CE4BF /* ProductOfOtherNumbersTests.m in Sources */,
+				76FEE1AB1FC178B9009CE4BF /* BreadthFirstSearchTests.m in Sources */,
+				76FEE1BA1FC1CF7D009CE4BF /* QuickSortTests.m in Sources */,
 				76FEE1A11FBEDA2B009CE4BF /* TraidingStocksTests.m in Sources */,
-				1527053A1FB477ED0026E14D /* LeetCodeProblemsTests.m in Sources */,
 				152705561FB47A400026E14D /* NumberOf1BitsTests.m in Sources */,
 				1527055B1FB4811E0026E14D /* SumOfTwoIntegersTests.m in Sources */,
+				76FEE1B01FC17DFE009CE4BF /* QueueTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

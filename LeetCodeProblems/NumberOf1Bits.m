@@ -2,6 +2,8 @@
 
 @implementation NumberOf1Bits
 
+// O(n)
+
 - (NSUInteger)numberOfOneBits:(int64_t)integer {
     NSInteger numberOfOneBits = 0;
     

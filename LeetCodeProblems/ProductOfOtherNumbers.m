@@ -2,6 +2,8 @@
 
 @implementation ProductOfOtherNumbers
 
+// O(n)
+
 - (NSArray<NSNumber *> *)productOfOthers:(NSArray<NSNumber *> *)numbers {
     NSAssert(numbers.count > 1, @"Cannot calculate products of nothing");
     
@@ -21,7 +23,7 @@
         [reversedProducts addObject:@(reverseProduct)];
     }
     
-    reversedProducts = [[reversedProducts reverseObjectEnumerator] allObjects];
+    reversedProducts = [[[reversedProducts reverseObjectEnumerator] allObjects] mutableCopy];
     
     NSLog(@"reversedProducts count %lu", (unsigned long)reversedProducts.count);
     NSLog(@"reversedProducts %@", reversedProducts);
