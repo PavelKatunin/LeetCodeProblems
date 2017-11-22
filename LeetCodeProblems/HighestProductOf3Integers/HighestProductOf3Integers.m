@@ -3,7 +3,7 @@
 
 @implementation HighestProductOf3Integers
 
-// n
+// O(n)
 
 - (NSInteger)highestProductOf3Integers:(NSArray<NSNumber *> *)integersArray {
     NSCAssert(integersArray.count >= 3, @"invalid argument: less than 3 items");

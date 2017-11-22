@@ -18,6 +18,13 @@
 		152705561FB47A400026E14D /* NumberOf1BitsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 152705551FB47A400026E14D /* NumberOf1BitsTests.m */; };
 		152705591FB480A10026E14D /* SumOfTwoIntegers.m in Sources */ = {isa = PBXBuildFile; fileRef = 152705581FB480A10026E14D /* SumOfTwoIntegers.m */; };
 		1527055B1FB4811E0026E14D /* SumOfTwoIntegersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1527055A1FB4811E0026E14D /* SumOfTwoIntegersTests.m */; };
+		76A515F71FC5A42F00A39877 /* ICKMeeting.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A515F61FC5A42F00A39877 /* ICKMeeting.m */; };
+		76A515FA1FC5A48700A39877 /* MeetingScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A515F91FC5A48700A39877 /* MeetingScheduler.m */; };
+		76A515FC1FC5A4C100A39877 /* MeetingSchedulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A515FB1FC5A4C100A39877 /* MeetingSchedulerTests.m */; };
+		76A516001FC5A6E000A39877 /* LongestIncreasingSubsequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A515FF1FC5A6E000A39877 /* LongestIncreasingSubsequence.m */; };
+		76A516021FC5A6FD00A39877 /* LongestIncreasingSubsequenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A516011FC5A6FD00A39877 /* LongestIncreasingSubsequenceTests.m */; };
+		76A516061FC5AA9800A39877 /* FibonacciNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A516051FC5AA9800A39877 /* FibonacciNumbers.m */; };
+		76A516081FC5AACE00A39877 /* FibonacciNumbersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A516071FC5AACE00A39877 /* FibonacciNumbersTests.m */; };
 		76FEE19F1FBEDA02009CE4BF /* TraidingStocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE19E1FBEDA02009CE4BF /* TraidingStocks.m */; };
 		76FEE1A11FBEDA2B009CE4BF /* TraidingStocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE1A01FBEDA2B009CE4BF /* TraidingStocksTests.m */; };
 		76FEE1A41FBEE468009CE4BF /* ProductOfOtherNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE1A31FBEE468009CE4BF /* ProductOfOtherNumbers.m */; };
@@ -71,6 +78,17 @@
 		152705571FB480A10026E14D /* SumOfTwoIntegers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumOfTwoIntegers.h; sourceTree = "<group>"; };
 		152705581FB480A10026E14D /* SumOfTwoIntegers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumOfTwoIntegers.m; sourceTree = "<group>"; };
 		1527055A1FB4811E0026E14D /* SumOfTwoIntegersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumOfTwoIntegersTests.m; sourceTree = "<group>"; };
+		76A515F51FC5A42F00A39877 /* ICKMeeting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICKMeeting.h; sourceTree = "<group>"; };
+		76A515F61FC5A42F00A39877 /* ICKMeeting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICKMeeting.m; sourceTree = "<group>"; };
+		76A515F81FC5A48700A39877 /* MeetingScheduler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetingScheduler.h; sourceTree = "<group>"; };
+		76A515F91FC5A48700A39877 /* MeetingScheduler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetingScheduler.m; sourceTree = "<group>"; };
+		76A515FB1FC5A4C100A39877 /* MeetingSchedulerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetingSchedulerTests.m; sourceTree = "<group>"; };
+		76A515FE1FC5A6E000A39877 /* LongestIncreasingSubsequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestIncreasingSubsequence.h; sourceTree = "<group>"; };
+		76A515FF1FC5A6E000A39877 /* LongestIncreasingSubsequence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongestIncreasingSubsequence.m; sourceTree = "<group>"; };
+		76A516011FC5A6FD00A39877 /* LongestIncreasingSubsequenceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongestIncreasingSubsequenceTests.m; sourceTree = "<group>"; };
+		76A516041FC5AA9800A39877 /* FibonacciNumbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FibonacciNumbers.h; sourceTree = "<group>"; };
+		76A516051FC5AA9800A39877 /* FibonacciNumbers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FibonacciNumbers.m; sourceTree = "<group>"; };
+		76A516071FC5AACE00A39877 /* FibonacciNumbersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FibonacciNumbersTests.m; sourceTree = "<group>"; };
 		76FEE19D1FBEDA02009CE4BF /* TraidingStocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TraidingStocks.h; sourceTree = "<group>"; };
 		76FEE19E1FBEDA02009CE4BF /* TraidingStocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraidingStocks.m; sourceTree = "<group>"; };
 		76FEE1A01FBEDA2B009CE4BF /* TraidingStocksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraidingStocksTests.m; sourceTree = "<group>"; };
@@ -139,6 +157,9 @@
 		1527051F1FB477ED0026E14D /* LeetCodeProblems */ = {
 			isa = PBXGroup;
 			children = (
+				76A516031FC5AA7E00A39877 /* FibonacciNumbers */,
+				76A515FD1FC5A6B400A39877 /* LongestIncreasingSubsequence */,
+				76A515F41FC5A40200A39877 /* MergingRanges */,
 				76A515F31FC583A700A39877 /* HighestProductOf3Integers */,
 				76A515F21FC5839500A39877 /* TraidingStocks */,
 				76A515F11FC5838300A39877 /* SumOfTwoIntegers */,
@@ -172,6 +193,9 @@
 				76FEE1AF1FC17DFE009CE4BF /* QueueTests.m */,
 				76FEE1B41FC1993E009CE4BF /* HighestProductOf3IntegersTests.m */,
 				76FEE1B91FC1CF7D009CE4BF /* QuickSortTests.m */,
+				76A515FB1FC5A4C100A39877 /* MeetingSchedulerTests.m */,
+				76A516011FC5A6FD00A39877 /* LongestIncreasingSubsequenceTests.m */,
+				76A516071FC5AACE00A39877 /* FibonacciNumbersTests.m */,
 			);
 			path = LeetCodeProblemsTests;
 			sourceTree = "<group>";
@@ -255,6 +279,35 @@
 				76FEE1B21FC198CD009CE4BF /* HighestProductOf3Integers.m */,
 			);
 			path = HighestProductOf3Integers;
+			sourceTree = "<group>";
+		};
+		76A515F41FC5A40200A39877 /* MergingRanges */ = {
+			isa = PBXGroup;
+			children = (
+				76A515F51FC5A42F00A39877 /* ICKMeeting.h */,
+				76A515F61FC5A42F00A39877 /* ICKMeeting.m */,
+				76A515F81FC5A48700A39877 /* MeetingScheduler.h */,
+				76A515F91FC5A48700A39877 /* MeetingScheduler.m */,
+			);
+			path = MergingRanges;
+			sourceTree = "<group>";
+		};
+		76A515FD1FC5A6B400A39877 /* LongestIncreasingSubsequence */ = {
+			isa = PBXGroup;
+			children = (
+				76A515FE1FC5A6E000A39877 /* LongestIncreasingSubsequence.h */,
+				76A515FF1FC5A6E000A39877 /* LongestIncreasingSubsequence.m */,
+			);
+			path = LongestIncreasingSubsequence;
+			sourceTree = "<group>";
+		};
+		76A516031FC5AA7E00A39877 /* FibonacciNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				76A516041FC5AA9800A39877 /* FibonacciNumbers.h */,
+				76A516051FC5AA9800A39877 /* FibonacciNumbers.m */,
+			);
+			path = FibonacciNumbers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,6 +443,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76A516061FC5AA9800A39877 /* FibonacciNumbers.m in Sources */,
 				152705251FB477ED0026E14D /* ViewController.m in Sources */,
 				152705591FB480A10026E14D /* SumOfTwoIntegers.m in Sources */,
 				152705301FB477ED0026E14D /* main.m in Sources */,
@@ -399,8 +453,11 @@
 				76FEE19F1FBEDA02009CE4BF /* TraidingStocks.m in Sources */,
 				76FEE1B81FC1CAB2009CE4BF /* QuickSort.m in Sources */,
 				152705541FB478180026E14D /* NumberOf1Bits.m in Sources */,
+				76A515FA1FC5A48700A39877 /* MeetingScheduler.m in Sources */,
 				76FEE1B31FC198CD009CE4BF /* HighestProductOf3Integers.m in Sources */,
+				76A516001FC5A6E000A39877 /* LongestIncreasingSubsequence.m in Sources */,
 				76FEE1A91FC1788D009CE4BF /* BreadthFirstSearch.m in Sources */,
+				76A515F71FC5A42F00A39877 /* ICKMeeting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,10 +468,13 @@
 				76FEE1B51FC1993E009CE4BF /* HighestProductOf3IntegersTests.m in Sources */,
 				76FEE1A61FBEE4E1009CE4BF /* ProductOfOtherNumbersTests.m in Sources */,
 				76FEE1AB1FC178B9009CE4BF /* BreadthFirstSearchTests.m in Sources */,
+				76A516021FC5A6FD00A39877 /* LongestIncreasingSubsequenceTests.m in Sources */,
 				76FEE1BA1FC1CF7D009CE4BF /* QuickSortTests.m in Sources */,
 				76FEE1A11FBEDA2B009CE4BF /* TraidingStocksTests.m in Sources */,
 				152705561FB47A400026E14D /* NumberOf1BitsTests.m in Sources */,
+				76A515FC1FC5A4C100A39877 /* MeetingSchedulerTests.m in Sources */,
 				1527055B1FB4811E0026E14D /* SumOfTwoIntegersTests.m in Sources */,
+				76A516081FC5AACE00A39877 /* FibonacciNumbersTests.m in Sources */,
 				76FEE1B01FC17DFE009CE4BF /* QueueTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
