@@ -4,6 +4,6 @@
 
 @interface HighestProductOf3Integers : NSObject
 
-- (NSInteger)highestProductOf3Integers:(NSArray *)integersArray;
+- (NSInteger)highestProductOf3Integers:(NSArray<NSNumber *> *)integersArray;
 
 @end

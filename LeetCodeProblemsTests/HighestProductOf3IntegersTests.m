@@ -31,6 +31,12 @@
     
     XCTAssertEqual([[[HighestProductOf3Integers alloc] init] highestProductOf3Integers:inputArray],
                    expectedResult);
+    
+    NSArray *inputArray2 = @[@(1), @(10), @(-5), @(1), @(-100)];
+    NSInteger expectedResult2 = 5000;
+    
+    XCTAssertEqual([[[HighestProductOf3Integers alloc] init] highestProductOf3Integers:inputArray2],
+                   expectedResult2);
 }
 
 - (void)test2Negatives {
