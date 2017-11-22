@@ -139,6 +139,14 @@
 		1527051F1FB477ED0026E14D /* LeetCodeProblems */ = {
 			isa = PBXGroup;
 			children = (
+				76A515F31FC583A700A39877 /* HighestProductOf3Integers */,
+				76A515F21FC5839500A39877 /* TraidingStocks */,
+				76A515F11FC5838300A39877 /* SumOfTwoIntegers */,
+				76A515F01FC5837000A39877 /* NumberOf1Bits */,
+				76A515E51FC4764F00A39877 /* ProductOfOtherNumbers */,
+				76A515E41FC4763B00A39877 /* BreadthFirstSearch */,
+				76A515E31FC4762B00A39877 /* QuickSort */,
+				76A515E21FC4761900A39877 /* Queue */,
 				152705201FB477ED0026E14D /* AppDelegate.h */,
 				152705211FB477ED0026E14D /* AppDelegate.m */,
 				152705231FB477ED0026E14D /* ViewController.h */,
@@ -148,22 +156,6 @@
 				1527052B1FB477ED0026E14D /* LaunchScreen.storyboard */,
 				1527052E1FB477ED0026E14D /* Info.plist */,
 				1527052F1FB477ED0026E14D /* main.m */,
-				152705521FB478180026E14D /* NumberOf1Bits.h */,
-				152705531FB478180026E14D /* NumberOf1Bits.m */,
-				152705571FB480A10026E14D /* SumOfTwoIntegers.h */,
-				152705581FB480A10026E14D /* SumOfTwoIntegers.m */,
-				76FEE19D1FBEDA02009CE4BF /* TraidingStocks.h */,
-				76FEE19E1FBEDA02009CE4BF /* TraidingStocks.m */,
-				76FEE1A21FBEE468009CE4BF /* ProductOfOtherNumbers.h */,
-				76FEE1A31FBEE468009CE4BF /* ProductOfOtherNumbers.m */,
-				76FEE1A71FC1788D009CE4BF /* BreadthFirstSearch.h */,
-				76FEE1A81FC1788D009CE4BF /* BreadthFirstSearch.m */,
-				76FEE1AC1FC17D7D009CE4BF /* Queue.h */,
-				76FEE1AD1FC17D7D009CE4BF /* Queue.m */,
-				76FEE1B11FC198CD009CE4BF /* HighestProductOf3Integers.h */,
-				76FEE1B21FC198CD009CE4BF /* HighestProductOf3Integers.m */,
-				76FEE1B61FC1CAB2009CE4BF /* QuickSort.h */,
-				76FEE1B71FC1CAB2009CE4BF /* QuickSort.m */,
 			);
 			path = LeetCodeProblems;
 			sourceTree = "<group>";
@@ -191,6 +183,78 @@
 				152705461FB477ED0026E14D /* Info.plist */,
 			);
 			path = LeetCodeProblemsUITests;
+			sourceTree = "<group>";
+		};
+		76A515E21FC4761900A39877 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				76FEE1AC1FC17D7D009CE4BF /* Queue.h */,
+				76FEE1AD1FC17D7D009CE4BF /* Queue.m */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		76A515E31FC4762B00A39877 /* QuickSort */ = {
+			isa = PBXGroup;
+			children = (
+				76FEE1B61FC1CAB2009CE4BF /* QuickSort.h */,
+				76FEE1B71FC1CAB2009CE4BF /* QuickSort.m */,
+			);
+			path = QuickSort;
+			sourceTree = "<group>";
+		};
+		76A515E41FC4763B00A39877 /* BreadthFirstSearch */ = {
+			isa = PBXGroup;
+			children = (
+				76FEE1A71FC1788D009CE4BF /* BreadthFirstSearch.h */,
+				76FEE1A81FC1788D009CE4BF /* BreadthFirstSearch.m */,
+			);
+			path = BreadthFirstSearch;
+			sourceTree = "<group>";
+		};
+		76A515E51FC4764F00A39877 /* ProductOfOtherNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				76FEE1A21FBEE468009CE4BF /* ProductOfOtherNumbers.h */,
+				76FEE1A31FBEE468009CE4BF /* ProductOfOtherNumbers.m */,
+			);
+			path = ProductOfOtherNumbers;
+			sourceTree = "<group>";
+		};
+		76A515F01FC5837000A39877 /* NumberOf1Bits */ = {
+			isa = PBXGroup;
+			children = (
+				152705521FB478180026E14D /* NumberOf1Bits.h */,
+				152705531FB478180026E14D /* NumberOf1Bits.m */,
+			);
+			path = NumberOf1Bits;
+			sourceTree = "<group>";
+		};
+		76A515F11FC5838300A39877 /* SumOfTwoIntegers */ = {
+			isa = PBXGroup;
+			children = (
+				152705571FB480A10026E14D /* SumOfTwoIntegers.h */,
+				152705581FB480A10026E14D /* SumOfTwoIntegers.m */,
+			);
+			path = SumOfTwoIntegers;
+			sourceTree = "<group>";
+		};
+		76A515F21FC5839500A39877 /* TraidingStocks */ = {
+			isa = PBXGroup;
+			children = (
+				76FEE19D1FBEDA02009CE4BF /* TraidingStocks.h */,
+				76FEE19E1FBEDA02009CE4BF /* TraidingStocks.m */,
+			);
+			path = TraidingStocks;
+			sourceTree = "<group>";
+		};
+		76A515F31FC583A700A39877 /* HighestProductOf3Integers */ = {
+			isa = PBXGroup;
+			children = (
+				76FEE1B11FC198CD009CE4BF /* HighestProductOf3Integers.h */,
+				76FEE1B21FC198CD009CE4BF /* HighestProductOf3Integers.m */,
+			);
+			path = HighestProductOf3Integers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

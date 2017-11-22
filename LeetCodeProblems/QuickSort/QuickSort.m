@@ -15,11 +15,11 @@
     NSNumber *pivotValue = [numbers objectAtIndex:randomPivotPoint];
     [numbers removeObjectAtIndex:randomPivotPoint];
     
-    for (NSNumber *num in numbers) {
-        if (num.integerValue < pivotValue.integerValue) {
-            [lessArray addObject:num];
+    for (NSNumber *number in numbers) {
+        if (number.integerValue < pivotValue.integerValue) {
+            [lessArray addObject:number];
         } else {
-            [greaterArray addObject:num];
+            [greaterArray addObject:number];
         }
     }
     NSMutableArray *sortedArray = [[NSMutableArray alloc] init];
