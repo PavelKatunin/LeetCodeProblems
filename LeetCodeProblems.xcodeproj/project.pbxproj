@@ -21,10 +21,11 @@
 		76A515F71FC5A42F00A39877 /* ICKMeeting.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A515F61FC5A42F00A39877 /* ICKMeeting.m */; };
 		76A515FA1FC5A48700A39877 /* MeetingScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A515F91FC5A48700A39877 /* MeetingScheduler.m */; };
 		76A515FC1FC5A4C100A39877 /* MeetingSchedulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A515FB1FC5A4C100A39877 /* MeetingSchedulerTests.m */; };
-		76A516001FC5A6E000A39877 /* LongestIncreasingSubsequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A515FF1FC5A6E000A39877 /* LongestIncreasingSubsequence.m */; };
+		76A516001FC5A6E000A39877 /* LongestIncreasingSubsequenceNSquared.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A515FF1FC5A6E000A39877 /* LongestIncreasingSubsequenceNSquared.m */; };
 		76A516021FC5A6FD00A39877 /* LongestIncreasingSubsequenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A516011FC5A6FD00A39877 /* LongestIncreasingSubsequenceTests.m */; };
 		76A516061FC5AA9800A39877 /* FibonacciNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A516051FC5AA9800A39877 /* FibonacciNumbers.m */; };
 		76A516081FC5AACE00A39877 /* FibonacciNumbersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A516071FC5AACE00A39877 /* FibonacciNumbersTests.m */; };
+		76A5160C1FC7720E00A39877 /* LongestIncreasingSubsequenceNLogN.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A5160B1FC7720E00A39877 /* LongestIncreasingSubsequenceNLogN.m */; };
 		76FEE19F1FBEDA02009CE4BF /* TraidingStocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE19E1FBEDA02009CE4BF /* TraidingStocks.m */; };
 		76FEE1A11FBEDA2B009CE4BF /* TraidingStocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE1A01FBEDA2B009CE4BF /* TraidingStocksTests.m */; };
 		76FEE1A41FBEE468009CE4BF /* ProductOfOtherNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FEE1A31FBEE468009CE4BF /* ProductOfOtherNumbers.m */; };
@@ -83,12 +84,15 @@
 		76A515F81FC5A48700A39877 /* MeetingScheduler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetingScheduler.h; sourceTree = "<group>"; };
 		76A515F91FC5A48700A39877 /* MeetingScheduler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetingScheduler.m; sourceTree = "<group>"; };
 		76A515FB1FC5A4C100A39877 /* MeetingSchedulerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetingSchedulerTests.m; sourceTree = "<group>"; };
-		76A515FE1FC5A6E000A39877 /* LongestIncreasingSubsequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestIncreasingSubsequence.h; sourceTree = "<group>"; };
-		76A515FF1FC5A6E000A39877 /* LongestIncreasingSubsequence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongestIncreasingSubsequence.m; sourceTree = "<group>"; };
+		76A515FE1FC5A6E000A39877 /* LongestIncreasingSubsequenceNSquared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestIncreasingSubsequenceNSquared.h; sourceTree = "<group>"; };
+		76A515FF1FC5A6E000A39877 /* LongestIncreasingSubsequenceNSquared.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongestIncreasingSubsequenceNSquared.m; sourceTree = "<group>"; };
 		76A516011FC5A6FD00A39877 /* LongestIncreasingSubsequenceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongestIncreasingSubsequenceTests.m; sourceTree = "<group>"; };
 		76A516041FC5AA9800A39877 /* FibonacciNumbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FibonacciNumbers.h; sourceTree = "<group>"; };
 		76A516051FC5AA9800A39877 /* FibonacciNumbers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FibonacciNumbers.m; sourceTree = "<group>"; };
 		76A516071FC5AACE00A39877 /* FibonacciNumbersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FibonacciNumbersTests.m; sourceTree = "<group>"; };
+		76A516091FC771D400A39877 /* LongestIncreasingSubsequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestIncreasingSubsequence.h; sourceTree = "<group>"; };
+		76A5160A1FC7720E00A39877 /* LongestIncreasingSubsequenceNLogN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestIncreasingSubsequenceNLogN.h; sourceTree = "<group>"; };
+		76A5160B1FC7720E00A39877 /* LongestIncreasingSubsequenceNLogN.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongestIncreasingSubsequenceNLogN.m; sourceTree = "<group>"; };
 		76FEE19D1FBEDA02009CE4BF /* TraidingStocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TraidingStocks.h; sourceTree = "<group>"; };
 		76FEE19E1FBEDA02009CE4BF /* TraidingStocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraidingStocks.m; sourceTree = "<group>"; };
 		76FEE1A01FBEDA2B009CE4BF /* TraidingStocksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraidingStocksTests.m; sourceTree = "<group>"; };
@@ -295,8 +299,11 @@
 		76A515FD1FC5A6B400A39877 /* LongestIncreasingSubsequence */ = {
 			isa = PBXGroup;
 			children = (
-				76A515FE1FC5A6E000A39877 /* LongestIncreasingSubsequence.h */,
-				76A515FF1FC5A6E000A39877 /* LongestIncreasingSubsequence.m */,
+				76A515FE1FC5A6E000A39877 /* LongestIncreasingSubsequenceNSquared.h */,
+				76A515FF1FC5A6E000A39877 /* LongestIncreasingSubsequenceNSquared.m */,
+				76A516091FC771D400A39877 /* LongestIncreasingSubsequence.h */,
+				76A5160A1FC7720E00A39877 /* LongestIncreasingSubsequenceNLogN.h */,
+				76A5160B1FC7720E00A39877 /* LongestIncreasingSubsequenceNLogN.m */,
 			);
 			path = LongestIncreasingSubsequence;
 			sourceTree = "<group>";
@@ -455,8 +462,9 @@
 				152705541FB478180026E14D /* NumberOf1Bits.m in Sources */,
 				76A515FA1FC5A48700A39877 /* MeetingScheduler.m in Sources */,
 				76FEE1B31FC198CD009CE4BF /* HighestProductOf3Integers.m in Sources */,
-				76A516001FC5A6E000A39877 /* LongestIncreasingSubsequence.m in Sources */,
+				76A516001FC5A6E000A39877 /* LongestIncreasingSubsequenceNSquared.m in Sources */,
 				76FEE1A91FC1788D009CE4BF /* BreadthFirstSearch.m in Sources */,
+				76A5160C1FC7720E00A39877 /* LongestIncreasingSubsequenceNLogN.m in Sources */,
 				76A515F71FC5A42F00A39877 /* ICKMeeting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

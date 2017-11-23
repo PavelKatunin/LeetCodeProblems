@@ -1,11 +1,3 @@
-//
-//  ViewController.m
-//  LeetCodeProblems
-//
-//  Created by Pavel Katunin on 11/9/17.
-//  Copyright © 2017 Pavel Katunin. All rights reserved.
-//
-
 #import "ViewController.h"
 
 @interface ViewController ()

@@ -1,9 +1,8 @@
-#import "LongestIncreasingSubsequence.h"
+#import "LongestIncreasingSubsequenceNSquared.h"
 
-@implementation LongestIncreasingSubsequence
+@implementation LongestIncreasingSubsequenceNSquared
 
-
-// n ^ 2
+// O(n ^ 2)
 
 - (NSInteger)longestIncreasingSubsequenceLength:(NSArray<NSNumber *> *)numbers {
     
@@ -19,7 +18,6 @@
     
     for (int j = 1; j < numbers.count; j++) {
         for (int k = 0; k < j; k++) {
-            
             if (numbers[j].integerValue > numbers[k].integerValue) {
                 if (lengthOfSubsequence[j].integerValue <= lengthOfSubsequence[k].integerValue) {
                     lengthOfSubsequence[j] = @(lengthOfSubsequence[k].integerValue + 1);
