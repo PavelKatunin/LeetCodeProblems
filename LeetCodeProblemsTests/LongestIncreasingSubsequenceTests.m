@@ -3,6 +3,20 @@
 #import "LongestIncreasingSubsequenceNLogN.h"
 #import "LongestIncreasingSubsequenceNSquared.h"
 
+static NSMutableArray *randomArray = nil;
+
+static NSArray *PerformanceRandomTestArray() {
+    
+    if (randomArray == nil) {
+        randomArray = [[NSMutableArray alloc] init];
+        
+        for (int i = 0; i < 100; i++) {
+            [randomArray addObject:@(rand() % 100)];
+        }
+    }
+    return randomArray;
+}
+
 @interface LongestIncreasingSubsequenceTests : XCTestCase
 
 @end
@@ -38,6 +52,20 @@
             algorithm:(id <LongestIncreasingSubsequence>)algorithm {
     XCTAssertEqual(expectedLength,
                    [algorithm longestIncreasingSubsequenceLength:inputArray]);
+}
+
+- (void)testPerformanceNLogN {
+    NSArray *numbers = PerformanceRandomTestArray();
+    [self measureBlock:^{
+        [[[LongestIncreasingSubsequenceNLogN alloc] init] longestIncreasingSubsequenceLength:numbers];
+    }];
+}
+
+- (void)testPerformanceNSquared {
+    NSArray *numbers = PerformanceRandomTestArray();
+    [self measureBlock:^{
+        [[[LongestIncreasingSubsequenceNSquared alloc] init] longestIncreasingSubsequenceLength:numbers];
+    }];
 }
 
 @end
