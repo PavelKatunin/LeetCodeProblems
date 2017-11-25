@@ -50,20 +50,18 @@
     
     BOOL ceilIndexFound = NO;
     
-    for (mid = (left + right) / 2; left <= right; mid = (left + right) / 2) {
+    for (mid = (left + right) / 2; left <= right && !ceilIndexFound; mid = (left + right) / 2) {
         if (subsequence[mid].integerValue > key) {
             right = mid - 1;
         }
         else if (subsequence[mid].integerValue == key) {
             ceilIndex = mid;
             ceilIndexFound = YES;
-            break;
         }
         else if (mid + 1 <= right && subsequence[mid + 1].integerValue >= key) {
             subsequence[mid + 1] = @(key);
             ceilIndex = mid + 1;
             ceilIndexFound = YES;
-            break;
         } else {
             left = mid + 1;
         }
