@@ -21,6 +21,7 @@
     }
     
     subsequence[0] = numbers[0];
+    indexes[0] = @0;
     
     for (int i = 1; i < numbers.count; ++i) {
         indexes[i] = @([self ceilIndexFromNumbers:subsequence
@@ -41,33 +42,45 @@
                         startLeft:(NSInteger)startLeft
                        startRight:(NSInteger)startRight
                               key:(NSInteger)key {
-    NSInteger mid;
+    NSInteger mid = 0;
     NSInteger left = startLeft;
     NSInteger right = startRight;
+    
+    NSInteger ceilIndex = 0;
+    
+    BOOL ceilIndexFound = NO;
     
     for (mid = (left + right) / 2; left <= right; mid = (left + right) / 2) {
         if (subsequence[mid].integerValue > key) {
             right = mid - 1;
         }
         else if (subsequence[mid].integerValue == key) {
-            return mid;
+            ceilIndex = mid;
+            ceilIndexFound = YES;
+            break;
         }
         else if (mid + 1 <= right && subsequence[mid + 1].integerValue >= key) {
             subsequence[mid + 1] = @(key);
-            return mid + 1;
+            ceilIndex = mid + 1;
+            ceilIndexFound = YES;
+            break;
         } else {
             left = mid + 1;
         }
     }
     
-    if (mid == left) {
-        subsequence[mid] = @(key);
-        return mid;
+    if (!ceilIndexFound) {
+        if (mid == left) {
+            subsequence[mid] = @(key);
+            ceilIndex = mid;
+        }
+        else {
+            subsequence[mid + 1] = @(key);
+            ceilIndex = mid + 1;
+        }
     }
-    else {
-        subsequence[mid + 1] = @(key);
-        return mid + 1;
-    }
+    
+    return ceilIndex;
 }
 
 @end
