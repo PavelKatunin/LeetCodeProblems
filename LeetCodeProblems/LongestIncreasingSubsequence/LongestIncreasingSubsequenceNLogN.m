@@ -12,18 +12,18 @@
     
     NSInteger lis_length = -1;
     
-    NSMutableArray<NSNumber *> *longestIncreasingSubsequence = [[NSMutableArray alloc] initWithCapacity:numbers.count];
+    NSMutableArray<NSNumber *> *subsequence = [[NSMutableArray alloc] initWithCapacity:numbers.count];
     NSMutableArray<NSNumber *> *indexes = [[NSMutableArray alloc] initWithCapacity:numbers.count];
     
     for (int i = 0; i < numbers.count; ++i) {
-        [longestIncreasingSubsequence addObject:@(INT_MAX)];
+        [subsequence addObject:@(INT_MAX)];
         [indexes addObject:@(INT_MAX)];
     }
     
-    longestIncreasingSubsequence[0] = numbers[0];
+    subsequence[0] = numbers[0];
     
     for (int i = 1; i < numbers.count; ++i) {
-        indexes[i] = @([self ceilIndexFromNumbers:longestIncreasingSubsequence
+        indexes[i] = @([self ceilIndexFromNumbers:subsequence
                                         startLeft:0
                                        startRight:i
                                               key:numbers[i].integerValue]);
@@ -37,7 +37,7 @@
     return lis_length + 1;
 }
 
-- (NSInteger)ceilIndexFromNumbers:(NSMutableArray<NSNumber *> *)numbers
+- (NSInteger)ceilIndexFromNumbers:(NSMutableArray<NSNumber *> *)subsequence
                         startLeft:(NSInteger)startLeft
                        startRight:(NSInteger)startRight
                               key:(NSInteger)key {
@@ -46,25 +46,28 @@
     NSInteger right = startRight;
     
     for (mid = (left + right) / 2; left <= right; mid = (left + right) / 2) {
-        if (numbers[mid].integerValue > key) {
+        if (subsequence[mid].integerValue > key) {
             right = mid - 1;
         }
-        else if (numbers[mid].integerValue == key) {
+        else if (subsequence[mid].integerValue == key) {
             return mid;
         }
-        else if (mid + 1 <= right && numbers[mid + 1].integerValue >= key) {
-            numbers[mid + 1] = @(key);
+        else if (mid + 1 <= right && subsequence[mid + 1].integerValue >= key) {
+            subsequence[mid + 1] = @(key);
             return mid + 1;
         } else {
             left = mid + 1;
         }
     }
+    
     if (mid == left) {
-        numbers[mid] = @(key);
+        subsequence[mid] = @(key);
         return mid;
     }
-    numbers[mid + 1] = @(key);
-    return mid + 1;
+    else {
+        subsequence[mid + 1] = @(key);
+        return mid + 1;
+    }
 }
 
 @end
